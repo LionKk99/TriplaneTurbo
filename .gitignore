@@ -1,0 +1,22 @@
+.threestudio_cache/text_embeddings/
+pretrained/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build/venv miscellany（按需）
+*.so
+.build/
+dist/
+.eggs/
+*.egg-info/
+.env
+.venv
+
+# Project outputs and caches
+.threestudio_cache/
+outputs/
+
