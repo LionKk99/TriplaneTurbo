@@ -119,7 +119,8 @@ system:
   renderer:
     radius: ${system.geometry.radius}
     isosurface_remove_outliers: false
-    isosurface_method: "diffmc"
+    # isosurface_method: "diffmc"
+    isosurface_method: "mc-cpu"
     enable_bg_rays: true
     allow_empty_flag: false
 
